@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 小码哥. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface XDKProduct : NSObject
 /** title */
@@ -21,4 +21,9 @@
 @property (nonatomic,copy)NSString * icon;
 /** customUrl */
 @property (nonatomic,copy)NSString * customUrl;
+
+/** everDown */
+@property (nonatomic,assign,getter=isEverDown)BOOL everDown;
+
++(XDKProduct *)productWithDict:(NSDictionary *)dict;
 @end

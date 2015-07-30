@@ -14,13 +14,13 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tvguide" translatesAutoresizingMaskIntoConstraints="NO" id="4bW-P2-tIP">
-                        <rect key="frame" x="0.0" y="0.0" width="57" height="78.5"/>
+                        <rect key="frame" x="10" y="5" width="60" height="68.5"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="57" id="7UT-Yl-rdX"/>
+                            <constraint firstAttribute="width" constant="60" id="7UT-Yl-rdX"/>
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="xxxxxkkkk" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mub-2g-nFR">
-                        <rect key="frame" x="67" y="10" width="150" height="20.5"/>
+                        <rect key="frame" x="80" y="15" width="150" height="20.5"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="150" id="Fyl-sa-gWq"/>
                         </constraints>
@@ -29,12 +29,12 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="dffidsaofidsoafi" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0AC-Li-Ihb">
-                        <rect key="frame" x="67" y="48" width="220" height="20.5"/>
+                        <rect key="frame" x="80" y="52.5" width="220" height="16"/>
                         <constraints>
                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="I40-Zu-a5J"/>
                             <constraint firstAttribute="width" constant="220" id="iF6-HY-EbK"/>
                         </constraints>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                         <nil key="highlightedColor"/>
                         <variation key="default">
@@ -44,10 +44,10 @@
                         </variation>
                     </label>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lid-je-PRb">
-                        <rect key="frame" x="314" y="20" width="40" height="40"/>
+                        <rect key="frame" x="324" y="25" width="30" height="30"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="40" id="Dyq-qU-UNu"/>
-                            <constraint firstAttribute="height" constant="40" id="msm-eO-gqt"/>
+                            <constraint firstAttribute="width" constant="30" id="Dyq-qU-UNu"/>
+                            <constraint firstAttribute="height" constant="30" id="msm-eO-gqt"/>
                         </constraints>
                         <state key="normal" backgroundImage="appadcell_downloadbutton">
                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -58,15 +58,15 @@
                     </button>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="4bW-P2-tIP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="G5t-db-6tc"/>
+                    <constraint firstItem="4bW-P2-tIP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="G5t-db-6tc"/>
                     <constraint firstItem="mub-2g-nFR" firstAttribute="leading" secondItem="4bW-P2-tIP" secondAttribute="trailing" constant="10" id="Gtj-gu-jwi"/>
-                    <constraint firstItem="4bW-P2-tIP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="MaK-IH-jnl"/>
-                    <constraint firstAttribute="bottom" secondItem="4bW-P2-tIP" secondAttribute="bottom" id="QFx-Zh-Mbb"/>
+                    <constraint firstItem="4bW-P2-tIP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="MaK-IH-jnl"/>
+                    <constraint firstAttribute="bottom" secondItem="4bW-P2-tIP" secondAttribute="bottom" constant="5" id="QFx-Zh-Mbb"/>
                     <constraint firstAttribute="bottom" secondItem="0AC-Li-Ihb" secondAttribute="bottom" constant="10" id="Xnu-lA-aaU"/>
                     <constraint firstItem="0AC-Li-Ihb" firstAttribute="leading" secondItem="4bW-P2-tIP" secondAttribute="trailing" constant="10" id="gWg-vW-TJK"/>
                     <constraint firstAttribute="trailing" secondItem="Lid-je-PRb" secondAttribute="trailing" constant="10" id="nNg-Bd-SN1"/>
                     <constraint firstAttribute="centerY" secondItem="Lid-je-PRb" secondAttribute="centerY" id="qwf-mx-2e5"/>
-                    <constraint firstItem="mub-2g-nFR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="wvC-eJ-XTj"/>
+                    <constraint firstItem="mub-2g-nFR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="wvC-eJ-XTj"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
