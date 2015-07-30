@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="XDKPopMenu">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xiaopingguo" translatesAutoresizingMaskIntoConstraints="NO" id="def-9d-YKh">
+                    <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hq7-9p-LaO">
+                    <rect key="frame" x="180" y="0.0" width="20" height="20"/>
+                    <state key="normal" image="alphaClose">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="closeBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="cIs-W1-qBJ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="hq7-9p-LaO" secondAttribute="bottom" constant="180" id="0Ac-P8-zFp"/>
+                <constraint firstAttribute="trailing" secondItem="hq7-9p-LaO" secondAttribute="trailing" id="36t-ux-Btg"/>
+                <constraint firstItem="hq7-9p-LaO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="180" id="4Qg-0K-0gm"/>
+                <constraint firstItem="hq7-9p-LaO" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leading" constant="180" id="9Xi-l3-gvg"/>
+                <constraint firstItem="hq7-9p-LaO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="B7l-bz-VO2"/>
+                <constraint firstItem="hq7-9p-LaO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="154" id="C5J-33-7U3"/>
+                <constraint firstItem="hq7-9p-LaO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="GOm-Y9-EnC"/>
+                <constraint firstAttribute="bottom" secondItem="def-9d-YKh" secondAttribute="bottom" id="N2U-iv-vDb"/>
+                <constraint firstAttribute="trailing" secondItem="def-9d-YKh" secondAttribute="trailing" id="Nuv-7Q-CA9"/>
+                <constraint firstAttribute="trailing" secondItem="hq7-9p-LaO" secondAttribute="trailing" id="dpg-L8-L8f"/>
+                <constraint firstItem="def-9d-YKh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="tz6-pH-HvU"/>
+                <constraint firstItem="def-9d-YKh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="vjT-yr-hgK"/>
+                <constraint firstAttribute="bottom" secondItem="hq7-9p-LaO" secondAttribute="bottom" constant="178" id="zHZ-ja-gJO"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="9Xi-l3-gvg"/>
+                    <exclude reference="B7l-bz-VO2"/>
+                    <exclude reference="C5J-33-7U3"/>
+                    <exclude reference="dpg-L8-L8f"/>
+                    <exclude reference="zHZ-ja-gJO"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="294" y="441.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="alphaClose" width="19" height="19"/>
+        <image name="xiaopingguo" width="200" height="200"/>
+    </resources>
+</document>

@@ -1,0 +1,17 @@
+//
+//  XDK彩票.pch
+//  XDK彩票
+//
+//  Created by 徐宽阔 on 15/7/19.
+//  Copyright (c) 2015年 小码哥. All rights reserved.
+//
+
+
+#ifdef __OBJC__
+
+#define XDKKeyWindow [UIApplication sharedApplication].keyWindow
+#import "UIImage+Extension.h"
+#import "UIView+Frame.h"
+
+
+#endif
