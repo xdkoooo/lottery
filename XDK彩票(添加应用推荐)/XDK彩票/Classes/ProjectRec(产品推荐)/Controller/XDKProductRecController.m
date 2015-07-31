@@ -38,7 +38,10 @@
 
 -(void)loadStatus
 {
+    NSLog(@"%@",NSHomeDirectory());
+//    NSLog(@"%@",[NSBundle mainBundle].infoDictionary);
     NSString *path = [[NSBundle mainBundle] pathForResource:@"more_project.json" ofType:nil];
+    NSLog(@"%@",path);
     NSData *data = [NSData dataWithContentsOfFile:path];
     NSError *error;
     NSArray *dictArray = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:&error];
